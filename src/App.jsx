@@ -6,7 +6,7 @@ import Skills from './components/Skills';
 import Projects from './components/Project';
 import Experience from './components/Experience';
 import Contact from './components/Contact';
-import formal from './assets/formal.jpg'
+import formal from './assets/formal.JPG'
 import linkedin from './assets/linkedin.png'
 import github from './assets/github.png'
 import email from './assets/email.png'
