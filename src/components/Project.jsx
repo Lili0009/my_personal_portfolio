@@ -82,7 +82,7 @@ function Project() {
                             <div className='line'></div>
                             <div className='flex gap-3'>
                                 <img src={github} className='icon-logo inline-block'/>
-                                <h3 className='text-[10px] mt-[1px] lg:text-[15px] lg:mt-1 inline-block text-customGray font-inter font-semibold hover:text-customPink cursor-pointer'>Source Code</h3>
+                                <a href="https://github.com/Lili0009/my_personal_portfolio" target="_blank" rel="noopener noreferrer"><h3 className='text-[10px] mt-[1px] lg:text-[15px] lg:mt-1 inline-block text-customGray font-inter font-semibold hover:text-customPink'>Source Code</h3></a>
                             </div>
                         </div>
                     </div>

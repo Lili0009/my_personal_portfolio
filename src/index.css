@@ -95,7 +95,7 @@ html {
            lg:w-8 lg:h-8;
   }
   .core-container {
-    @apply flex-row items-center justify-center h-[15px] px-[10px] bg-customBlue2 text-[6px] font-jetbrains rounded-full 
+    @apply flex-row items-center justify-center h-[15px] px-[10px] bg-customBlue2 text-[6px] font-jetbrains rounded-full shadow-2xl
            sm:h-[15px] sm:px-[10px] sm:text-[9px]
            md:h-[20px] md:px-[15px] md:text-[10px]          
            lg:h-[35px] lg:px-[20px] lg:text-[13px]
