@@ -1,0 +1,185 @@
+@font-face {
+  font-family: 'JetBrains Mono';
+  src: url('./assets/fonts/JetBrainsMono-Regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-customBlue text-white select-none;
+  }
+  p {
+    @apply font-jetbrains leading-[1.625];
+  }
+  li {
+    @apply font-jetbrains;
+  }
+  img {
+    @apply lg:w-[50px] lg:h-[50px];
+  }
+}
+
+@layer components {
+  .main-title {
+    @apply font-inter text-customPink font-bold text-[25px]
+           lg:text-[48px];
+  }
+  .sub-title {
+    @apply text-[20px] font-inter text-customPink font-bold
+           sm:text-[20px]
+           md:text-[23px]
+           lg:text-[35px];
+  }
+  .icon {
+      @apply w-5 h-5 m-0.5
+             lg:w-[40px] lg:h-[40px] lg:mx-[10px];
+  }
+  .image {
+    @apply w-[130px] h-[130px] object-cover
+           sm:w-[200px] sm:h-[300px] sm:mt-10
+           lg:w-[361px] lg:h-[541px] lg:mt-[10px];
+  }
+  .button {
+    @apply z-[1] transition-all duration-300 ease-in-out 
+           w-20 h-6 border-2 tracking-[2px] text-[9px] border-[1px]
+           lg:text-[18px] lg:font-bold lg:w-[10rem] lg:h-[3rem] lg:border-[3px];
+  }
+
+  .button::before {
+    @apply transition-all duration-500 ease-in-out absolute top-0 bottom-0 left-1/2 right-1/2 opacity-0 bg-customPink -z-10 content-[''];
+  }
+
+  .button:hover::before,
+  .button:focus::before {
+    @apply left-0 right-0 opacity-100;
+  }
+  .card-sm {
+    @apply bg-customBlue w-[221px] h-[110px] transition duration-700 shadow-[10px_10px_20px_#000000]
+           lg:w-[421px] lg:h-[235px] lg:border-2 lg:border-solid lg:border-black lg:rounded-xl;
+  }
+  .cards {
+    @apply flex-col gap-5 mt-5 justify-center items-center
+           sm:flex-row 
+           lg:gap-20 lg:mt-10;
+  }
+  .card-title {
+    @apply font-inter font-bold text-center text-[10px] lg:text-[20px];
+  }
+  .card-subtitle {
+    @apply font-jetbrains text-center leading-[2] text-[8px] w-[200px] 
+           lg:mt-7 lg:text-[18px];
+  }
+  .card-year {
+    @apply text-[7px] text-center 
+           lg:text-[15px];
+  }
+
+  .category {
+    @apply text-[13px] font-inter font-bold w-[120px]
+           sm:text-[15px] sm:w-[140px]
+           md:text-[18px] md:w-[180px]
+           lg:text-[25px] lg:w-[320px];
+  }
+  .icon-logo {
+    @apply w-5 h-5 object-cover 
+           md:w-6 md:h-6
+           lg:w-8 lg:h-8;
+  }
+  .core-container {
+    @apply flex-row items-center justify-center h-[15px] px-[10px] bg-customBlue2 text-[6px] font-jetbrains rounded-full 
+           sm:h-[15px] sm:px-[10px] sm:text-[9px]
+           md:h-[20px] md:px-[15px] md:text-[10px]          
+           lg:h-[35px] lg:px-[20px] lg:text-[13px]
+  }
+
+  .card-lg {
+    @apply bg-customBlue w-[100px] h-[255px] 
+           lg:w-[400px] lg:h-[435px] ;
+  }
+  .card-lg-title {
+    @apply font-inter font-bold text-[13px] 
+           lg:text-[25px];
+  }
+  .card-lg-year {
+    @apply text-[7px]
+           lg:text-[13px] lg:w-[300px];
+  }
+  .card-lg-subtitle {
+    @apply text-justify font-medium text-[8px] 
+           lg:mt-7 lg:text-[12px];
+  }
+
+  .round-container {
+    @apply bg-customBlue2 px-2 py-[2px]
+           lg:px-3 lg:py-[1px];
+  }
+  .round-container-content {
+    @apply font-jetbrains font-thin text-customPink text-[8px]
+           lg:text-[12px]
+  }
+  .line {
+    @apply flex bg-white h-[0.5px] mt-5 mb-4 opacity-25;
+  }
+  .circle {
+    @apply bg-customPink rounded-full absolute left-1/2 -translate-x-1/2 top-0 w-3 h-3
+           lg:w-6 lg:h-6;
+  }
+
+  .swiper-slide {
+    width: 55% !important;
+    @apply bg-customBlue p-2;
+  }
+
+  @media (min-width: 640px) { /* lg */
+    .swiper-slide {
+      width: 50% !important;
+      @apply sm:p-3;
+    }
+  }
+  @media (min-width: 1024px) { /* lg */
+    .swiper-slide {
+      width: 40% !important;
+      @apply lg:p-5;
+    }
+  }
+  .swiper-button-prev,
+  .swiper-button-next {
+    @apply text-white w-10 h-10;
+  }
+  .swiper-pagination {
+    display: block !important;
+  }
+
+
+}
+
+@layer utilities {
+  .center {
+      @apply block mx-auto;
+  }
+  .icon:hover {
+    @apply transition delay-150 duration-300 ease-in-out hover:scale-110;
+  }
+  .hover-btn {
+    @apply hover:text-customBlue hover:bg-customPink;
+  }
+  .hover {
+    @apply hover:text-customPink transition duration-300 cursor-pointer;
+  }
+  .cards .card-sm:hover {
+    transform: scale(1.2, 1.2);
+  }
+  .cards:hover > .card-sm:not(:hover) {
+    filter: blur(10px);
+    transform: scale(0.9, 0.9);
+  }
+}
