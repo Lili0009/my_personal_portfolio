@@ -45,7 +45,7 @@ function Project() {
         <div className='swiper mt-[59px]'>
             <div className="swiper-wrapper">
                 <div className='swiper-slide'>
-                    <div className=" flex items-center justify-center text-center p-3 sm:py-[100px] sm:px-2 lg:py-[150px] lg:px-2 ">
+                    <div className=" flex items-center justify-center text-center p-3 py-[90px] px-1 sm:py-[100px] sm:px-2 lg:py-[150px] lg:px-2 ">
                         <h2 className="card-lg-title mt-2">MY PROJECTS</h2>
                     </div>
                 </div>
@@ -82,7 +82,7 @@ function Project() {
                             <div className='line'></div>
                             <div className='flex gap-3'>
                                 <img src={github} className='icon-logo inline-block'/>
-                                <a href="https://github.com/Lili0009/my_personal_portfolio" target="_blank" rel="noopener noreferrer"><h3 className='text-[10px] mt-[1px] lg:text-[15px] lg:mt-1 inline-block text-customGray font-inter font-semibold hover:text-customPink'>Source Code</h3></a>
+                                <a href="https://github.com/Lili0009/my_personal_portfolio" target="_blank" rel="noopener noreferrer" className='text-[10px] sm:mt-[1px] lg:text-[15px] lg:mt-1 inline-block text-customGray font-inter font-semibold hover:text-customPink'>Source Code</a>
                             </div>
                         </div>
                     </div>
@@ -122,7 +122,7 @@ function Project() {
                             <div className='line'></div>
                             <div className='flex gap-3'>
                                 <img src={github} className='icon-logo inline-block'/>
-                                <a href="https://github.com/Lili0009/Hydrocision" target="_blank" rel="noopener noreferrer"><h3 className='text-[10px] mt-[1px] lg:text-[15px] lg:mt-1 inline-block text-customGray font-inter font-semibold hover:text-customPink'>Source Code</h3></a>
+                                <a href="https://github.com/Lili0009/Hydrocision" target="_blank" rel="noopener noreferrer" className='text-[10px] sm:mt-[1px] lg:text-[15px] lg:mt-1 inline-block text-customGray font-inter font-semibold hover:text-customPink'>Source Code</a>
                             </div>
                         </div>
                     </div>
@@ -162,7 +162,7 @@ function Project() {
                             <div className='line'></div>
                             <div className='flex gap-3'>
                                 <img src={github} className='icon-logo inline-block'/>
-                                <a href="https://github.com/Lili0009/Ordering-System" target="_blank" rel="noopener noreferrer"><h3 className='text-[10px] mt-[1px] lg:text-[15px] lg:mt-1 inline-block text-customGray font-inter font-semibold hover:text-customPink'>Source Code</h3></a>
+                                <a href="https://github.com/Lili0009/Ordering-System" target="_blank" rel="noopener noreferrer" className='text-[10px] sm:mt-[1px] lg:text-[15px] lg:mt-1 inline-block text-customGray font-inter font-semibold hover:text-customPink'>Source Code</a>
                             </div>
                         </div>
                     </div>
@@ -170,7 +170,7 @@ function Project() {
               
 
                     <div className='swiper-slide'>
-                        <div className="flex flex-col items-center justify-center text-center sm:p-3 sm:py-[30px] lg:p-5 lg:py-[90px]">
+                        <div className="flex flex-col items-center justify-center text-center p-3 py-[30px] lg:p-5 lg:py-[90px]">
                             <h2 className="card-lg-title mt-2">UPCOMING PROJECT...</h2>
                             <h3 className="card-lg-year font-jetbrains">WORDPRESS</h3>
                             <img src={wordpress} className="w-9 h-9 my-4" />
@@ -183,7 +183,7 @@ function Project() {
 
                    
             </div>
-            <div className='md:mt-[60px]'>
+            <div className='mt-[40px] sm:mt-[40px] md:mt-[60px]'>
                 <div class="swiper-pagination"></div>      
             </div>          
             <div className="swiper-button-prev"></div>

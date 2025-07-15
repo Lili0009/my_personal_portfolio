@@ -40,7 +40,7 @@ function Skills() {
                     </div>
                     <div
                         className="
-                        w-0 group-hover:w-[65px]
+                        w-0 sm:group-hover:w-[65px]
                         transition-all duration-500
                         "
                     ></div>
@@ -53,7 +53,7 @@ function Skills() {
                     </div>
                     <div
                         className="
-                        w-0 group-hover:w-[50px]
+                        w-0 sm:group-hover:w-[50px]
                         transition-all duration-500
                         "
                     ></div>
@@ -66,8 +66,7 @@ function Skills() {
                     </div>
                     <div
                         className="
-                        w-0 group-hover:w-[70px]
-                        sm:group-hover:w-[85px]
+                        w-0 sm:group-hover:w-[85px]
                         md:group-hover:w-[90px]
                         lg:group-hover:w-[100px]
                         transition-all duration-500
@@ -82,7 +81,7 @@ function Skills() {
                     </div>
                     <div
                         className="
-                        w-0 group-hover:w-[85px]
+                        w-0 sm:group-hover:w-[85px]
                         lg:group-hover:w-[90px]
                         transition-all duration-500
                         "
@@ -96,7 +95,7 @@ function Skills() {
                     </div>
                     <div
                         className="
-                        w-0 group-hover:w-[70px]
+                        w-0 sm:group-hover:w-[70px]
                         transition-all duration-500
                         "
                     ></div>
@@ -109,7 +108,7 @@ function Skills() {
                     </div>
                     <div
                         className="
-                        w-0 group-hover:w-[75px]
+                        w-0 sm:group-hover:w-[75px]
                         lg:group-hover:w-[65px]
                         transition-all duration-500
                         "
@@ -123,7 +122,7 @@ function Skills() {
                     </div>
                     <div
                         className="
-                        w-0 group-hover:w-[80px]
+                        w-0 sm:group-hover:w-[80px]
                         transition-all duration-500
                         "
                     ></div>
@@ -140,7 +139,7 @@ function Skills() {
                     </div>
                     <div
                         className="
-                        w-0 group-hover:w-[60px]
+                        w-0 sm:group-hover:w-[60px]
                         transition-all duration-500
                         "
                     ></div>
@@ -153,7 +152,7 @@ function Skills() {
                     </div>
                     <div
                         className="
-                        w-0 group-hover:w-[80px]
+                        w-0 sm:group-hover:w-[80px]
                         transition-all duration-500
                         "
                     ></div>
@@ -166,7 +165,7 @@ function Skills() {
                     </div>
                     <div
                         className="
-                        w-0 group-hover:w-[75px]
+                        w-0 sm:group-hover:w-[75px]
                         transition-all duration-500
                         "
                     ></div>
@@ -189,7 +188,7 @@ function Skills() {
                     </div>
                     <div
                         className="
-                        w-0 group-hover:w-[75px]
+                        w-0 sm:group-hover:w-[75px]
                         transition-all duration-500
                         "
                     ></div>
@@ -211,7 +210,7 @@ function Skills() {
                     </div>
                     <div
                         className="
-                        w-0 group-hover:w-[50px]
+                        w-0 sm:group-hover:w-[50px]
                         transition-all duration-500
                         "
                     ></div>
@@ -224,7 +223,7 @@ function Skills() {
                     </div>
                     <div
                         className="
-                        w-0 group-hover:w-[70px]
+                        w-0 sm:group-hover:w-[70px]
                         transition-all duration-500
                         "
                     ></div>
@@ -237,7 +236,7 @@ function Skills() {
                     </div>
                     <div
                         className="
-                        w-0 group-hover:w-[70px]
+                        w-0 sm:group-hover:w-[70px]
                         transition-all duration-500
                         "
                     ></div>
@@ -250,7 +249,7 @@ function Skills() {
                     </div>
                     <div
                         className="
-                        w-0 group-hover:w-[65px]
+                        w-0 sm:group-hover:w-[65px]
                         transition-all duration-500
                         "
                     ></div>
@@ -263,7 +262,7 @@ function Skills() {
                     </div>
                     <div
                         className="
-                        w-0 group-hover:w-[75px]
+                        w-0 sm:group-hover:w-[75px]
                         transition-all duration-500
                         "
                     ></div>

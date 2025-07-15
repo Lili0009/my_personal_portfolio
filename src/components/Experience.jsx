@@ -10,9 +10,8 @@ function Experience() {
                 <div className='bg-white w-[1px] h-[130px] lg:w-[0.5px] lg:h-[350px] relative'>
                     <div className='circle'></div>  
                 </div>
-
                 
-                <div className='card-sm bg-customBlue2 rounded-lg flex flex-col w-[400px] p-2 sm:max-md:overflow-y-auto lg:w-[800px] lg:p-5'>
+                <div className='card-sm bg-customBlue2 rounded-lg flex flex-col w-[400px] p-2 max-md:overflow-y-auto lg:w-[800px] lg:p-5'>
                     <div className='flex items-center justify-between'>
                         <div>
                             <h2 className='card-lg-title mt-0 text-[10px] lg:text-[20px]'>Personal Portfolio</h2>

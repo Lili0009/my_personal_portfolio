@@ -48,10 +48,10 @@ function App() {
   }, [charIndex, isDeleting]);
 
   return (
-    <div>
+    <div className="relative overflow-x-hidden">
       <NavigationBar />
       <section id="home">
-        <div className="grid grid-cols-[2fr_1fr] sm:mt-[30px] sm:grid-cols-2 sm:grid-rows-[1fr_1.5fr] md:grid-cols-[1.3fr_1fr] md:grid-rows-[1fr_1.2fr] lg:h-full lg:mt-[30px]">
+        <div className="grid grid-cols-[2fr_1fr] mt-[30px] sm:mt-[20px] sm:grid-cols-2 sm:grid-rows-[1fr_1.1fr] md:grid-cols-[1.3fr_1fr] md:grid-rows-[1fr_1.2fr] lg:h-full lg:mt-[30px]">
           <div className='mt-10 p-4 sm:ml-[30px] lg:pl-[50px]'>
             <h3 className='text-customPink font-inter text-[15px] font-extrabold lg:text-[20px]'>
               Hi, my name is <br/> 
@@ -63,13 +63,13 @@ function App() {
           </div>
         
 
-          <div className='mt-5 sm:row-span-2 sm:m-10 md:mt-2'>
+          <div className='mt-5 sm:mt-1 sm:row-span-2 sm:m-10 md:mt-2'>
             <img src={formal} alt="Lian Gaile" className='rounded-full object-cover transition-transform duration-300 hover:scale-110 lg:center image'/>
           </div>
 
           <div className='p-4 col-span-2 sm:col-span-1 sm:col-start-1 sm:ml-[30px] lg:p-0'>
             <p className='text-[10px] lg:text-[20px] lg:pl-[50px] text-justify'>I love the ever-evolving challenge of web development. I’m dedicated to writing clean, efficient code and building digital experiences that are both visually appealing and highly functional. With a passion for continuous learning and problem-solving. Let’s build something great together!</p>
-            <div className='flex flex-row gap-2 mt-5 lg:mt-5 lg:pl-[50px]'>
+            <div className='flex flex-row gap-1 mt-2 sm:gap-2 sm:mt-5 lg:mt-5 lg:pl-[50px]'>
               <a href="https://drive.google.com/file/d/1uVi2eA-HOtCvTF37XNUMdOFV3_fdhiIV/view" target="_blank" rel="noopener noreferrer"><button className="button font-inter text-customPink border-customPink relative overflow-hidden hover:text-white focus:text-white active:scale-90">
                 RESUME
               </button></a>

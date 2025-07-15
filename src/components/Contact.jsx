@@ -7,7 +7,7 @@ import email from '../assets/email.png'
 function Contact() {
 
   return (
-    <div className='bg-customBlue2 pb-[60px] p-[20px] md:pb-[20px] lg:p-[100px]'>
+    <div className='bg-customBlue2 p-[20px] pb-[30px] sm:pb-[60px] md:pb-[20px] lg:p-[100px]'>
         <h1 className='main-title text-center lg:pt-10'>Let’s Collaborate!</h1>
         <div className='w-[80%] mt-[15px] mx-auto sm:w-[60%] lg:text-[20px] lg:mt-[50px]'>
             <p className='text-center text-[10px] lg:text-[20px]'>
