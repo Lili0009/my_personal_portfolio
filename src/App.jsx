@@ -51,7 +51,7 @@ function App() {
     <div className="relative overflow-x-hidden">
       <NavigationBar />
       <section id="home">
-        <div className="grid grid-cols-[2fr_1fr] mt-[30px] sm:mt-[20px] sm:grid-cols-2 sm:grid-rows-[1fr_1.1fr] md:grid-cols-[1.3fr_1fr] md:grid-rows-[1fr_1.2fr] lg:h-full lg:mt-[30px]">
+        <div className="grid grid-cols-[1.2fr_1fr] mt-[30px] sm:mt-[20px] sm:grid-cols-2 sm:grid-rows-[1fr_1.1fr] md:grid-cols-[1.3fr_1fr] md:grid-rows-[1fr_1.2fr] lg:h-full lg:mt-[30px]">
           <div className='mt-10 p-4 sm:ml-[30px] lg:pl-[50px]'>
             <h3 className='text-customPink font-inter text-[15px] font-extrabold lg:text-[20px]'>
               Hi, my name is <br/> 
@@ -63,7 +63,7 @@ function App() {
           </div>
         
 
-          <div className='mt-5 sm:mt-1 sm:row-span-2 sm:m-10 md:mt-2'>
+          <div className='mt-auto sm:mt-1 sm:row-span-2 sm:m-10 md:mt-2'>
             <img src={formal} alt="Lian Gaile" className='rounded-full object-cover transition-transform duration-300 hover:scale-110 lg:center image'/>
           </div>
 

@@ -44,7 +44,7 @@ html {
              lg:w-[40px] lg:h-[40px] lg:mx-[10px];
   }
   .image {
-    @apply w-[130px] h-[130px] object-cover object-[50%_20%]
+    @apply w-[120px] h-[120px] object-cover object-[50%_20%]
            sm:w-[200px] sm:h-auto sm:mt-10
            lg:w-[340px] lg:h-auto lg:mt-[20px];
   }
