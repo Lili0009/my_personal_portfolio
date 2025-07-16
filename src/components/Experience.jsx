@@ -22,8 +22,8 @@ function Experience() {
                     <div className='text-[8px] p-3 pt-2 lg:text-[16px] lg:p-5 lg:pt-3'>
                         <ul className='list-disc leading-relaxed'>
                             <li>Collaborated with a team of experienced developers to build an Android app using React Native. </li>
-                            <li>Implemented features and functionality by writing clean, maintainable code in React Native (Typescript) </li>
-                            <li>Established basic data-fetching APIs for seamless front-end integration</li>
+                            <li>Implemented features and functionality by writing clean, maintainable code in React Native (Typescript).</li>
+                            <li>Established basic data-fetching APIs for seamless front-end integration.</li>
                         </ul>
                     </div>
                 </div>
