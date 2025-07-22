@@ -67,13 +67,13 @@ function Project() {
                             <h1 className='font-inter font-semibold mb-1 text-[10px] lg:text-[15px]'>Tech Stack</h1>
                             <div className='flex gap-2'>
                                 <div className='round-container inline-block rounded-full'>
-                                    <h3 className='round-container-content'>React.js</h3>
+                                    <h3 className='round-container-content'>React</h3>
+                                </div>
+                                <div className='round-container inline-block rounded-full'>
+                                    <h3 className='round-container-content'>HTML5</h3>
                                 </div>
                                 <div className='round-container inline-block rounded-full'>
                                     <h3 className='round-container-content'>Tailwindcss</h3>
-                                </div>
-                                <div className='round-container inline-block rounded-full'>
-                                    <h3 className='round-container-content'>Node.js</h3>
                                 </div>
                                 <div className='round-container inline-block rounded-full'>
                                     <h3 className='round-container-content'>Figma</h3>

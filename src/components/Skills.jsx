@@ -74,7 +74,7 @@ function Skills() {
                <div className="flex flex-row items-center space-x-2 group transition-all duration-300">
                     <div className="relative flex items-center">
                         <img src={typescript} className='icon-logo'/>
-                        <Label label={'TYPESCRIPT'}/>
+                        <Label label={'TypeScript'}/>
                     </div>
                     <div
                         className="
@@ -89,7 +89,7 @@ function Skills() {
                <div className="flex flex-row items-center space-x-2 group transition-all duration-300">
                     <div className="relative flex items-center">
                         <img src={javascript} className='icon-logo'/>
-                        <Label label={'JAVASCRIPT'}/>
+                        <Label label={'JavaScript'}/>
                     </div>
                     <div
                         className="
@@ -103,7 +103,7 @@ function Skills() {
                <div className="flex flex-row items-center space-x-2 group transition-all duration-300">
                     <div className="relative flex items-center">
                         <img src={python} className='icon-logo'/>
-                        <Label label={'PYTHON'}/>
+                        <Label label={'Python'}/>
                     </div>
                     <div
                         className="
@@ -116,7 +116,7 @@ function Skills() {
                <div className="flex flex-row items-center space-x-2 group transition-all duration-300">
                     <div className="relative flex items-center">
                         <img src={kotlin} className='icon-logo'/>
-                        <Label label={'KOTLIN'}/>
+                        <Label label={'Kotlin'}/>
                     </div>
                     <div
                         className="
@@ -147,7 +147,7 @@ function Skills() {
                 <div className="flex flex-row items-center space-x-2 group transition-all duration-300">
                     <div className="relative flex items-center">
                         <img src={react} className='icon-logo'/>
-                        <Label label={'REACT'}/>
+                        <Label label={'React'}/>
                     </div>
                     <div
                         className="
@@ -160,7 +160,7 @@ function Skills() {
                 <div className="flex flex-row items-center space-x-2 group transition-all duration-300">
                     <div className="relative flex items-center">
                         <img src={django} className='icon-logo'/>
-                        <Label label={'DJANGO'}/>
+                        <Label label={'Django'}/>
                     </div>
                     <div
                         className="
@@ -173,7 +173,7 @@ function Skills() {
                 <div className="flex flex-row items-center space-x-2 group transition-all duration-300">
                     <div className="relative flex items-center">
                         <img src={tailwindcss} className='icon-logo'/>
-                        <Label label={'TAILWIND CSS'}/>
+                        <Label label={'Tailwind CSS'}/>
                     </div>
                 </div>
             </div>
@@ -183,7 +183,7 @@ function Skills() {
                 <div className="flex flex-row items-center space-x-2 group transition-all duration-300">
                     <div className="relative flex items-center">
                         <img src={mysql} className='icon-logo'/>
-                        <Label label={'MYSQL'}/>
+                        <Label label={'MySQL'}/>
                     </div>
                     <div
                         className="
@@ -195,7 +195,7 @@ function Skills() {
                 <div className="flex flex-row items-center space-x-2 group transition-all duration-300">
                     <div className="relative flex items-center">
                         <img src={oracle} className='icon-logo'/>
-                        <Label label={'ORACLE'}/>
+                        <Label label={'Oracle'}/>
                     </div>
                 </div>
             </div>
@@ -205,7 +205,7 @@ function Skills() {
                 <div className="flex flex-row items-center space-x-2 group transition-all duration-300">
                     <div className="relative flex items-center">
                         <img src={git} className='icon-logo'/>
-                        <Label label={'GIT'}/>
+                        <Label label={'Git'}/>
                     </div>
                     <div
                         className="
@@ -218,7 +218,7 @@ function Skills() {
                 <div className="flex flex-row items-center space-x-2 group transition-all duration-300">
                     <div className="relative flex items-center">
                         <img src={github2} className='icon-logo'/>
-                        <Label label={'GITHUB'}/>
+                        <Label label={'GitHub   '}/>
                     </div>
                     <div
                         className="
@@ -231,7 +231,7 @@ function Skills() {
                 <div className="flex flex-row items-center space-x-2 group transition-all duration-300">
                     <div className="relative flex items-center">
                         <img src={postman} className='icon-logo'/>
-                        <Label label={'POSTMAN'}/>
+                        <Label label={'Postman'}/>
                     </div>
                     <div
                         className="
@@ -257,7 +257,7 @@ function Skills() {
                 <div className="flex flex-row items-center space-x-2 group transition-all duration-300">
                     <div className="relative flex items-center">
                         <img src={android} className='icon-logo'/>
-                        <Label label={'ANDROID STUDIO'}/>
+                        <Label label={'Android Studio'}/>
                     </div>
                     <div
                         className="
@@ -270,7 +270,7 @@ function Skills() {
                 <div className="flex flex-row items-center space-x-2 group transition-all duration-300">
                     <div className="relative flex items-center">
                         <img src={figma} className='icon-logo'/>
-                        <Label label={'FIGMA'}/>
+                        <Label label={'Figma'}/>
                     </div>
                 </div>      
             </div>
