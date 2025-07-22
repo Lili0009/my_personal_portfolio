@@ -7,7 +7,7 @@ import php from '../assets/php.png'
 import typescript from '../assets/typescript.png'
 import javascript from '../assets/javascript.png'
 import python from '../assets/python.png'
-import swift from '../assets/swift.png'
+import kotlin from '../assets/kotlin.png'
 import sql from '../assets/sql.png'
 import react from '../assets/react.png'
 import laravel from '../assets/laravel.png'
@@ -103,8 +103,8 @@ function Skills() {
 
                <div className="flex flex-row items-center space-x-2 group transition-all duration-300">
                     <div className="relative flex items-center">
-                        <img src={swift} className='icon-logo'/>
-                        <Label label={'SWIFT'}/>
+                        <img src={kotlin} className='icon-logo'/>
+                        <Label label={'KOTLIN'}/>
                     </div>
                     <div
                         className="
@@ -140,19 +140,6 @@ function Skills() {
                     <div
                         className="
                         w-0 sm:group-hover:w-[60px]
-                        transition-all duration-500
-                        "
-                    ></div>
-                </div>
-
-                <div className="flex flex-row items-center space-x-2 group transition-all duration-300">
-                    <div className="relative flex items-center">
-                        <img src={laravel} className='icon-logo'/>
-                        <Label label={'LARAVEL'}/>
-                    </div>
-                    <div
-                        className="
-                        w-0 sm:group-hover:w-[80px]
                         transition-all duration-500
                         "
                     ></div>

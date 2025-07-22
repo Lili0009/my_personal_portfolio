@@ -14,7 +14,7 @@ function Experience() {
                 <div className='card-sm bg-customBlue2 rounded-lg flex flex-col w-[400px] p-2 max-md:overflow-y-auto lg:w-[800px] lg:p-5'>
                     <div className='flex items-center justify-between'>
                         <div>
-                            <h2 className='card-lg-title mt-0 text-[10px] lg:text-[20px]'>Personal Portfolio</h2>
+                            <h2 className='card-lg-title mt-0 text-[10px] lg:text-[20px]'>Front-end Developer Intern</h2>
                         </div>
                         <h4 className='font-inter text-[7px] lg:text-[13px]'>Jan 2025 - May 2025</h4>
                     </div>
