@@ -10,7 +10,6 @@ import python from '../assets/python.png'
 import kotlin from '../assets/kotlin.png'
 import sql from '../assets/sql.png'
 import react from '../assets/react.png'
-import laravel from '../assets/laravel.png'
 import django from '../assets/django.png'
 import tailwindcss from '../assets/tailwindcss.png'
 import mysql from '../assets/mysql.png'
@@ -58,6 +57,19 @@ function Skills() {
                         "
                     ></div>
                 </div>
+
+               <div className="flex flex-row items-center space-x-2 group transition-all duration-300">
+                    <div className="relative flex items-center">
+                        <img src={php} className='icon-logo'/>
+                        <Label label={'PHP'}/>
+                    </div>
+                    <div
+                        className="
+                        w-0 sm:group-hover:w-[50px]
+                        transition-all duration-500
+                        "
+                    ></div>
+                </div>                
 
                <div className="flex flex-row items-center space-x-2 group transition-all duration-300">
                     <div className="relative flex items-center">
